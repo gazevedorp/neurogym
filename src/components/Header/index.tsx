@@ -1,13 +1,18 @@
-//@ts-expect-error
-import Logo from "../../assets/svgs/logo"
+import logoGolden from "../../assets/images/logoGolden.png"
+import logoBlue from "../../assets/images/logoBlue.png"
+import logoPurple from "../../assets/images/logoPurple.png"
 
-const Header = () => {
+interface HeaderProps {
+    color?: 'blue' | 'purple',
+}
+
+const Header = ({ color }: HeaderProps) => {
 
     return (
         <div className="w-full flex flex-column justify-center">
             <nav className="w-[85%] flex items-center justify-between flex-wrap bg-darkPurple p-4">
-                <div className="flex items-center flex-shrink-0 text-white">
-                    <Logo />
+                <div className="block">
+                    <img className="h-10" src={color === "purple" ? logoPurple : color === "blue" ? logoBlue : logoGolden} />
                 </div>
                 <div className="block lg:hidden">
                     <button className="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
