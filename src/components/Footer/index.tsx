@@ -33,37 +33,37 @@ const Footer = ({ color }: HeaderProps) => {
                     </div>
                     <div className="w-[161px] h-[168px] flex-col justify-start items-start gap-6 inline-flex">
                         <div className="justify-start items-center gap-2 inline-flex">
-                            <div className="w-4 h-4 relative border-2 border-golden rounded-xl" />
+                            <div className="w-3 h-3 relative border-2 border-golden rounded-xl" />
                             <div className="text-white text-base font-normal uppercase tracking-tight">Para Você</div>
                         </div>
                         <div className="justify-start items-center gap-2 inline-flex">
-                            <div className="w-4 h-4 relative border-2 border-golden rounded-xl" />
+                            <div className="w-3 h-3 relative border-2 border-golden rounded-xl" />
                             <div className="text-white text-base font-normal uppercase tracking-tight">Para Empresas</div>
                         </div>
                         <div className="justify-start items-center gap-2 inline-flex">
-                            <div className="w-4 h-4 relative border-2 border-golden rounded-xl" />
+                            <div className="w-3 h-3 relative border-2 border-golden rounded-xl" />
                             <div className="text-white text-base font-normal uppercase tracking-tight">Para EScolas</div>
                         </div>
                         <div className="justify-start items-center gap-2 inline-flex">
-                            <div className="w-4 h-4 relative border-2 border-golden rounded-xl" />
+                            <div className="w-3 h-3 relative border-2 border-golden rounded-xl" />
                             <div className="text-white text-base font-normal uppercase tracking-tight">Certificado</div>
                         </div>
                     </div>
                     <div className="w-[161px] h-[168px] flex-col justify-start items-start gap-6 inline-flex">
                         <div className="justify-start items-center gap-2 inline-flex">
-                            <div className="w-4 h-4 relative border-2 border-golden rounded-xl" />
+                            <div className="w-3 h-3 relative border-2 border-golden rounded-xl" />
                             <div className="text-white text-base font-normal uppercase tracking-tight">SOBRE</div>
                         </div>
                         <div className="justify-start items-center gap-2 inline-flex">
-                            <div className="w-4 h-4 relative border-2 border-golden rounded-xl" />
+                            <div className="w-3 h-3 relative border-2 border-golden rounded-xl" />
                             <div className="text-white text-base font-normal uppercase tracking-tight">BLOG</div>
                         </div>
                         <div className="justify-start items-center gap-2 inline-flex">
-                            <div className="w-4 h-4 relative border-2 border-golden rounded-xl" />
+                            <div className="w-3 h-3 relative border-2 border-golden rounded-xl" />
                             <div className="text-white text-base font-normal uppercase tracking-tight">FAQ</div>
                         </div>
                         <div className="justify-start items-center gap-2 inline-flex">
-                            <div className="w-4 h-4 relative border-2 border-golden rounded-xl" />
+                            <div className="w-3 h-3 relative border-2 border-golden rounded-xl" />
                             <div className="text-white text-base font-normal uppercase tracking-tight">CONTATO</div>
                         </div>
                     </div>
