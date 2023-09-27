@@ -1,12 +1,17 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import Section1 from "./Components/Section1";
+import { Container } from "./styles";
 
 const Home = () => {
     return (
-        <h1>
+        <>
             <Header />
+            <Container>
+                <Section1 />
+            </Container>
             <Footer />
-        </h1>
+        </>
     )
 }
 

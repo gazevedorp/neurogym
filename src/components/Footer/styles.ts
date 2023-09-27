@@ -101,4 +101,5 @@ export const NewsletterButton = styled.button`
   border-radius: 100px;
   background-color: ${colors.golden};
   color: ${colors.black};
+  cursor: pointer;
 `

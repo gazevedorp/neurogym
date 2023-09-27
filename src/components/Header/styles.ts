@@ -36,6 +36,7 @@ export const Button = styled.button`
   padding: 10px 20px;
   border-radius: 100px;
   font-size: 12px;
+  cursor: pointer;
 `
 
 export const ButtonIcon = styled.img`
