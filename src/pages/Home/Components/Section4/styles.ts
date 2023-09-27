@@ -9,7 +9,7 @@ export const Container = styled.div`
   margin-bottom: 50px;
 `;
 
-export const ContainerLeft = styled.div`
+export const ContainerRight = styled.div`
   width: 340px;
 `;
 
@@ -17,9 +17,9 @@ export const Image = styled.img`
   width: 100%;
 `
 
-export const TitleGolden = styled.p`
+export const TitleBlue = styled.p`
   font-size: 18px;
-  color: ${colors.golden};
+  color: ${colors.blue};
   font-weight: 600;
 `
 
@@ -37,8 +37,8 @@ export const Subtitle = styled.p`
 `
 
 export const Button = styled.button`
-  background-color: ${colors.golden};
-  color: ${colors.darkGolden};
+  background-color: ${colors.blue};
+  color: ${colors.darkBlue};
   font-weight: 600;
   padding: 8px 10px;
   border-radius: 100px;
@@ -47,7 +47,7 @@ export const Button = styled.button`
   cursor: pointer;
 `
 
-export const ContainerRight = styled.div`
+export const ContainerLeft = styled.div`
   width: 540px;
   margin-top: 80px;
   margin-left: 70px;
