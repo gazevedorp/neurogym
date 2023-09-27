@@ -1,7 +1,7 @@
 import logoGolden from "../../assets/images/logoGolden.png"
 import logoBlue from "../../assets/images/logoBlue.png"
 import logoPurple from "../../assets/images/logoPurple.png"
-import { Container, ContainerFooter, ContainerLogo, Logo, ContainerList, ContainerNewsletter, Link, MenuIcon, NewsletterTitle, NewsletterInput, NewsletterButton, Slogan, ContainerIcons, SocialIcon } from './styles'
+import { Container, ContainerFooter, ContainerLogo, Logo, ContainerList, ContainerNewsletter, Link, MenuIcon, NewsletterTitle, NewsletterInput, NewsletterButton, Slogan, ContainerIcons, SocialIcon, ContainerTerms, Terms } from './styles'
 import menuIcon from '../../assets/icons/round.png'
 import facebookIcon from '../../assets/icons/facebook.png'
 import twitterIcon from '../../assets/icons/twitter.png'
@@ -44,6 +44,9 @@ const Footer = ({ color }: HeaderProps) => {
                     <NewsletterButton>INSCREVER-SE</NewsletterButton>
                 </ContainerNewsletter>
             </ContainerFooter>
+            <ContainerTerms>
+                <Terms href="#">Termos e Condições | Política de Privacidade</Terms>
+            </ContainerTerms>
         </Container>
     )
 }

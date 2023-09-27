@@ -5,6 +5,7 @@ export const Container = styled.div`
   width: 100%;
   padding: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
@@ -102,4 +103,15 @@ export const NewsletterButton = styled.button`
   background-color: ${colors.golden};
   color: ${colors.black};
   cursor: pointer;
+`
+
+export const ContainerTerms = styled.p`
+  width: 85%;
+  margin-top: 10px;
+`
+
+export const Terms = styled.a`
+  color: ${colors.white};
+  font-size: 12px;
+  text-decoration: none;
 `
