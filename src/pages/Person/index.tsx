@@ -1,13 +1,13 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
-const Home = () => {
+const Person = () => {
     return (
         <h1>
-            <Header />
+            <Header color="purple" />
             <Footer />
         </h1>
     )
 }
 
-export default Home;
+export default Person;

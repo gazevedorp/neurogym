@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 
 const Tasks = () => {
     return (
-        <h1 className="">
+        <h1>
             <Header />
         </h1>
     )

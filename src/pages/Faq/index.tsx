@@ -3,7 +3,7 @@ import Header from "../../components/Header";
 
 const Faq = () => {
     return (
-        <h1 className="">
+        <h1>
             <Header />
             <Footer />
         </h1>

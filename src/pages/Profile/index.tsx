@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 
 const Profile = () => {
     return (
-        <h1 className="">
+        <h1>
             <Header />
         </h1>
     )
