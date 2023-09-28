@@ -26,7 +26,13 @@ const Header = ({ color }: HeaderProps) => {
                     <Link href="/contato">CONTATO</Link>
                 </Menu>
                 <DivButton>
-                    <Button color={color} ><ButtonIcon src={loginIcon} />LOGIN</Button>
+                    <Button
+                        color={color}
+                        onClick={() => window.location.href = ("/login")}
+                    >
+                        <ButtonIcon src={loginIcon} />
+                        LOGIN
+                    </Button>
                 </DivButton>
             </ContainerHeader>
         </Container>

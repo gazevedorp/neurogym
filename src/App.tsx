@@ -12,6 +12,8 @@ import Course from "./pages/Course";
 import Books from "./pages/Books";
 import Tasks from "./pages/Tasks";
 import Task from "./pages/Task";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/contato" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/curso" element={<Course />} />
         <Route path="/apostilas" element={<Books />} />
