@@ -6,17 +6,32 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 450px;
+  height: 500px;
 `;
 
 export const Form = styled.div`
-  width: 400px;
+  width: 600px;
+`;
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+`;
+
+export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  justify-content: center;
+  align-items: flex-start;
 `;
 
 export const InputTitle = styled.p`
   font-size: 12px;
   color: ${colors.golden};
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 `;
 
 export const Input = styled.input`
@@ -29,11 +44,11 @@ export const Input = styled.input`
 
 export const ContainerButton = styled.div`
   display: flex;
+  margin-top: 20px;
   width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
 `;
 
 export const Link = styled.a`

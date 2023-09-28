@@ -5,9 +5,9 @@ const Section1 = () => {
         <Container>
             <Form>
                 <InputTitle>CPF</InputTitle>
-                <Input placeholder="CPF" />
+                <Input />
                 <InputTitle>SENHA</InputTitle>
-                <Input placeholder="Senha" />
+                <Input />
                 <ContainerButton>
                     <Button>LOGIN</Button>
                     <Link href="/cadastrar">Criar Conta</Link>
