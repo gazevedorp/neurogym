@@ -9,7 +9,7 @@ import { Container } from "./styles";
 
 const About = () => {
     return (
-        <h1>
+        <>
             <Header />
             <InternalHeader title={"Sobre a NeuroGym"} />
             <Container>
@@ -19,7 +19,7 @@ const About = () => {
                 <Section4 />
             </Container>
             <Footer />
-        </h1>
+        </>
     )
 }
 

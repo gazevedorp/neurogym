@@ -1,24 +1,24 @@
-import ContactForm from "../../components/ContactForm";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import Section1 from "./Components/Section1";
-import Section2 from "./Components/Section2";
-import Section3 from "./Components/Section3";
+import InternalHeader from "../../components/InternalHeader";
 import { Container } from "./styles";
+import Section2 from "./Components/Section2"
+import Section3 from "./Components/Section3";
+import Section1 from "./Components/Section1";
 
-const Business = () => {
+const Depositions = () => {
     return (
         <>
             <Header />
+            <InternalHeader title={"Depoimentos de Alunos"} />
             <Container>
                 <Section1 />
                 <Section2 />
                 <Section3 />
-                <ContactForm />
             </Container>
             <Footer />
         </>
     )
 }
 
-export default Business;
+export default Depositions;

@@ -1,4 +1,4 @@
-import { Container, ContainerLeft, ContainerRight, Image, Subtitle, Title, TitleBlue, Button } from "./styles";
+import { Container, ContainerLeft, ContainerRight, Image, Subtitle, TitleBlue, Button } from "./styles";
 import image from '../../../../assets/images/person3.png'
 
 const Section3 = () => {

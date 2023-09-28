@@ -5,12 +5,12 @@ import { Container } from "./styles";
 
 const Blog = () => {
     return (
-        <h1>
+        <>
             <Header />
             <InternalHeader title={"Blog"} />
             <Container></Container>
             <Footer />
-        </h1>
+        </>
     )
 }
 

@@ -8,7 +8,7 @@ const Section3 = () => {
     return (
         <>
             <Title>Depoimentos de Alunos</Title>
-            <Subtitle>Mais Depoimentos<ButtonIcon src={iconMore} /></Subtitle>
+            <Subtitle href="/depoimentos">Mais Depoimentos<ButtonIcon src={iconMore} /></Subtitle>
             <Container>
                 <Card>
                     <Image src={imageDep1} />

@@ -8,7 +8,7 @@ import { Container } from "./styles";
 
 const Schools = () => {
     return (
-        <h1>
+        <>
             <Header color={"blue"} />
             <Container>
                 <Section1 />
@@ -17,7 +17,7 @@ const Schools = () => {
                 <ContactForm color={"blue"} />
             </Container>
             <Footer color={"blue"} />
-        </h1>
+        </>
     )
 }
 

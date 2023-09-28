@@ -16,7 +16,7 @@ export const Form = styled.div`
 export const InputTitle = styled.p`
   font-size: 12px;
   color: ${colors.golden};
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 `;
 
 export const Input = styled.input`

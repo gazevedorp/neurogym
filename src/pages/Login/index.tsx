@@ -6,14 +6,14 @@ import { Container } from "./styles";
 
 const Login = () => {
     return (
-        <h1>
+        <>
             <Header />
             <InternalHeader title={"Login"} />
             <Container>
                 <Section1 />
             </Container>
             <Footer />
-        </h1>
+        </>
     )
 }
 

@@ -34,6 +34,22 @@ export const Card = styled.div`
   align-items: center;
 `;
 
+export const CardDeposition = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  padding: 20px;
+  background-color: ${colors.golden};
+`;
+
+export const TextDeposition = styled.p`
+  color: ${colors.black};
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+`;
+
 export const Image = styled.img`
   width: 300px;
 `;

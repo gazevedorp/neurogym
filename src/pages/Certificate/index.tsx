@@ -6,7 +6,7 @@ import Section2 from "./Components/Section2";
 import Section3 from "./Components/Section3";
 import { Container } from "./styles";
 
-const Business = () => {
+const Certificate = () => {
     return (
         <>
             <Header />
@@ -21,4 +21,4 @@ const Business = () => {
     )
 }
 
-export default Business;
+export default Certificate;

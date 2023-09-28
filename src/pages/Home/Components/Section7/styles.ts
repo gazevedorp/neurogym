@@ -6,7 +6,7 @@ export const Title = styled.p`
   color: ${colors.golden};
 `;
 
-export const Subtitle = styled.p`
+export const Subtitle = styled.a`
   font-size: 12px;
   color: ${colors.white};
   margin-top: 5px;
@@ -14,6 +14,7 @@ export const Subtitle = styled.p`
   display: flex;
   flex-direction: row;
   align-items: end;
+  text-decoration: none;
 `;
 
 export const Container = styled.div`

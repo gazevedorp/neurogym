@@ -6,14 +6,14 @@ import { Container } from "./styles";
 
 const Register = () => {
     return (
-        <h1>
+        <>
             <Header />
             <InternalHeader title={"Criar Conta"} />
             <Container>
                 <Section1 />
             </Container>
             <Footer />
-        </h1>
+        </>
     )
 }
 
