@@ -1,14 +1,11 @@
-import { Title, Subtitle, Container, Card, Image, CardTitle, CardSubtitle, ButtonIcon } from "./styles";
+import { Container, Card, Image, CardTitle, CardSubtitle } from "./styles";
 import imageDep1 from "../../../../assets/images/dep1.png";
 import imageDep2 from "../../../../assets/images/dep2.png";
 import imageDep3 from "../../../../assets/images/dep3.png";
-import iconMore from "../../../../assets/icons/more.png"
 
-const Section7 = () => {
+const Section2 = () => {
     return (
         <>
-            <Title>Depoimentos de Alunos</Title>
-            <Subtitle href="/depoimentos">Mais Depoimentos<ButtonIcon src={iconMore} /></Subtitle>
             <Container>
                 <Card>
                     <Image src={imageDep1} />
@@ -30,4 +27,4 @@ const Section7 = () => {
     )
 }
 
-export default Section7;
+export default Section2;
