@@ -15,8 +15,8 @@ export const ContainerFooter = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid ${colors.golden};
-  border-bottom: 1px solid ${colors.golden};
+  border-top: 1px solid ${props => props.color == "purple" ? colors.lightPurple : props.color == "blue" ? colors.blue : colors.golden};
+  border-bottom: 1px solid ${props => props.color == "purple" ? colors.lightPurple : props.color == "blue" ? colors.blue : colors.golden};
   padding: 20px;
 `;
 
@@ -33,7 +33,7 @@ export const Logo = styled.img`
 
 export const Slogan = styled.p`
   font-size: 10px;
-  color: ${colors.darkGolden};
+  color: ${props => props.color == "purple" ? colors.lightPurple : props.color == "blue" ? colors.blue : colors.golden};
   font-weight: 600;
   width: 200px;
   margin-top: 10px;
@@ -81,7 +81,7 @@ export const ContainerNewsletter = styled.div`
 `;
 
 export const NewsletterTitle = styled.p`
-  color: ${colors.golden};
+  color: ${props => props.color == "purple" ? colors.lightPurple : props.color == "blue" ? colors.blue : colors.golden};
   font-size: 14px;
   margin-bottom: 15px;
 `
@@ -100,7 +100,7 @@ export const NewsletterButton = styled.button`
   font-weight: 600;
   padding: 10px 20px;
   border-radius: 100px;
-  background-color: ${colors.golden};
+  background-color: ${props => props.color == "purple" ? colors.lightPurple : props.color == "blue" ? colors.blue : colors.golden};
   color: ${colors.black};
   cursor: pointer;
 `

@@ -16,7 +16,7 @@ const Person = () => {
                 <Section3 />
                 <ContactForm color={"purple"} />
             </Container>
-            <Footer />
+            <Footer color={"purple"} />
         </h1>
     )
 }
