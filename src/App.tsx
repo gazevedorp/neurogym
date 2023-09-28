@@ -14,13 +14,14 @@ import Tasks from "./pages/Tasks";
 import Task from "./pages/Task";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Provisory from "./pages/Provisory";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/voce" element={<Person />} />
+        <Route path="/" element={<Provisory />} />
+        {/* <Route path="/voce" element={<Person />} />
         <Route path="/empresas" element={<Business />} />
         <Route path="/escolas" element={<Schools />} />
         <Route path="/sobre" element={<About />} />
@@ -33,7 +34,7 @@ const App = () => {
         <Route path="/curso" element={<Course />} />
         <Route path="/apostilas" element={<Books />} />
         <Route path="/licoes" element={<Tasks />} />
-        <Route path="/licao" element={<Task />} />
+        <Route path="/licao" element={<Task />} /> */}
       </Routes>
     </BrowserRouter>
   );
