@@ -8,7 +8,7 @@ import { Container } from "./styles";
 
 const Business = () => {
     return (
-        <h1>
+        <>
             <Header />
             <Container>
                 <Section1 />
@@ -17,7 +17,7 @@ const Business = () => {
                 <ContactForm />
             </Container>
             <Footer />
-        </h1>
+        </>
     )
 }
 

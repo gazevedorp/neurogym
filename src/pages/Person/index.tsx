@@ -8,7 +8,7 @@ import { Container } from "./styles";
 
 const Person = () => {
     return (
-        <h1>
+        <>
             <Header color={"purple"} />
             <Container>
                 <Section1 />
@@ -17,7 +17,7 @@ const Person = () => {
                 <ContactForm color={"purple"} />
             </Container>
             <Footer color={"purple"} />
-        </h1>
+        </>
     )
 }
 

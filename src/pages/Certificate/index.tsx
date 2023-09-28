@@ -8,7 +8,7 @@ import { Container } from "./styles";
 
 const Certificate = () => {
     return (
-        <h1>
+        <>
             <Header />
             <Container>
                 <Section1 />
@@ -17,7 +17,7 @@ const Certificate = () => {
                 <ContactForm />
             </Container>
             <Footer />
-        </h1>
+        </>
     )
 }
 
