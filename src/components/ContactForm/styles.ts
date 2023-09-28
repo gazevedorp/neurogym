@@ -19,7 +19,7 @@ export const ContainerForm = styled.div`
 
 export const Title = styled.p`
   font-size: 16px;
-  color: ${colors.golden};
+  color: ${props => props.color == "purple" ? colors.lightPurple : props.color == "blue" ? colors.blue : colors.golden};
 `;
 
 export const Subtitle = styled.p`
@@ -56,7 +56,7 @@ export const InputDivTextArea = styled.div`
 
 export const InputTitle = styled.p`
   font-size: 10px;
-  color: ${colors.golden};
+  color: ${props => props.color == "purple" ? colors.lightPurple : props.color == "blue" ? colors.blue : colors.golden};
   margin-bottom: 10px;
 `;
 
@@ -85,7 +85,7 @@ export const Button = styled.button`
   font-size: 12px;
   font-weight: 600;
   border-radius: 100px;
-  background-color: ${colors.golden};
+  background-color: ${props => props.color == "purple" ? colors.lightPurple : props.color == "blue" ? colors.blue : colors.golden};
   color: ${colors.black};
   cursor: pointer;
 `

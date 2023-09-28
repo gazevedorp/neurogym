@@ -17,16 +17,16 @@ const Header = ({ color }: HeaderProps) => {
                     <Logo src={color === "purple" ? logoPurple : color === "blue" ? logoBlue : logoGolden} />
                 </a>
                 <Menu>
-                    <Link href="#">PARA VOCÊ</Link>
-                    <Link href="#">PARA EMPRESAS</Link>
-                    <Link href="#">PARA ESCOLAS</Link>
-                    <Link href="#">SOBRE</Link>
-                    <Link href="#">BLOG</Link>
+                    <Link href="/voce">PARA VOCÊ</Link>
+                    <Link href="/empresas">PARA EMPRESAS</Link>
+                    <Link href="/escolas">PARA ESCOLAS</Link>
+                    <Link href="/sobre">SOBRE</Link>
+                    <Link href="/blog">BLOG</Link>
                     <Link href="#">FAQ</Link>
-                    <Link href="#">CONTATO</Link>
+                    <Link href="/contato">CONTATO</Link>
                 </Menu>
                 <DivButton>
-                    <Button><ButtonIcon src={loginIcon} />LOGIN</Button>
+                    <Button color={color} ><ButtonIcon src={loginIcon} />LOGIN</Button>
                 </DivButton>
             </ContainerHeader>
         </Container>

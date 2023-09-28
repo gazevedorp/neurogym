@@ -1,14 +1,16 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import contact from './contact.png'
+import ContactForm from "../../components/ContactForm";
+import InternalHeader from "../../components/InternalHeader";
 
 const Contact = () => {
     return (
-        <h1>
+        <>
             <Header />
-            <img src={contact} />
+            <InternalHeader title={"Entre em Contato"} />
+            <ContactForm />
             <Footer />
-        </h1>
+        </>
     )
 }
 

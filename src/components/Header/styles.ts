@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 import { colors } from '../../assets/colors'
 
+interface ButtonProps {
+  color?: string;
+}
+
 export const Container = styled.div`
   width: 100%;
   padding: 20px;
@@ -26,11 +30,11 @@ export const DivButton = styled.div`
   align-items: center;
 `
 
-export const Button = styled.button`
+export const Button = styled.button<ButtonProps>`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-color: ${colors.golden};
+  background-color: ${props => props.color == "purple" ? colors.lightPurple : props.color == "blue" ? colors.blue : colors.golden};
   color: ${colors.black};
   font-weight: 600;
   padding: 10px 20px;

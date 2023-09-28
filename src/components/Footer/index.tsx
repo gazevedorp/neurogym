@@ -27,16 +27,16 @@ const Footer = ({ color }: HeaderProps) => {
                     </ContainerIcons>
                 </ContainerLogo>
                 <ContainerList>
-                    <Link href="#"><MenuIcon src={menuIcon} />PARA VOCÊ</Link>
-                    <Link href="#"><MenuIcon src={menuIcon} />PARA EMPRESAS</Link>
-                    <Link href="#"><MenuIcon src={menuIcon} />PARA ESCOLAS</Link>
+                    <Link href="/voce"><MenuIcon src={menuIcon} />PARA VOCÊ</Link>
+                    <Link href="/empresas"><MenuIcon src={menuIcon} />PARA EMPRESAS</Link>
+                    <Link href="/escolas"><MenuIcon src={menuIcon} />PARA ESCOLAS</Link>
                     <Link href="#"><MenuIcon src={menuIcon} />CERTIFICADO</Link>
                 </ContainerList>
                 <ContainerList>
-                    <Link href="#"><MenuIcon src={menuIcon} />SOBRE</Link>
-                    <Link href="#"><MenuIcon src={menuIcon} />BLOG</Link>
+                    <Link href="/sobre"><MenuIcon src={menuIcon} />SOBRE</Link>
+                    <Link href="/blog"><MenuIcon src={menuIcon} />BLOG</Link>
                     <Link href="#"><MenuIcon src={menuIcon} />FAQ</Link>
-                    <Link href="#"><MenuIcon src={menuIcon} />CONTATO</Link>
+                    <Link href="/contato"><MenuIcon src={menuIcon} />CONTATO</Link>
                 </ContainerList>
                 <ContainerNewsletter>
                     <NewsletterTitle>Novidades e Promoções</NewsletterTitle>

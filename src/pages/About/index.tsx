@@ -1,16 +1,12 @@
-import { useState } from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import about from './about.png'
-import dep from './depoimentos.png'
+import InternalHeader from "../../components/InternalHeader";
 
 const About = () => {
-    const [type, setType] = useState(1);
-
     return (
         <h1>
             <Header />
-            {type === 1 ? <img onClick={() => setType(2)} src={about} /> : <img onClick={() => setType(1)} src={dep} />}
+            <InternalHeader title={"Sobre a NeuroGym"} />
             <Footer />
         </h1>
     )
