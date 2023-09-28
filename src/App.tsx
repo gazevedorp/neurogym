@@ -14,6 +14,7 @@ import Tasks from "./pages/Tasks";
 import Task from "./pages/Task";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Certificate from "./pages/Certificate";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/contato" element={<Contact />} />
+        <Route path="/certificado" element={<Certificate />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cadastrar" element={<Register />} />
         <Route path="/profile" element={<Profile />} />

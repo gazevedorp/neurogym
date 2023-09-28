@@ -35,7 +35,7 @@ const Footer = ({ color }: HeaderProps) => {
                     <Link href="/voce"><MenuIcon src={menuIcon} />PARA VOCÊ</Link>
                     <Link href="/empresas"><MenuIcon src={menuIcon} />PARA EMPRESAS</Link>
                     <Link href="/escolas"><MenuIcon src={menuIcon} />PARA ESCOLAS</Link>
-                    <Link href="#"><MenuIcon src={menuIcon} />CERTIFICADO</Link>
+                    <Link href="/certificado"><MenuIcon src={menuIcon} />CERTIFICADO</Link>
                 </ContainerList>
                 <ContainerList>
                     <Link href="/sobre"><MenuIcon src={menuIcon} />SOBRE</Link>
