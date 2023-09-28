@@ -17,6 +17,7 @@ import Register from "./pages/Register";
 import Certificate from "./pages/Certificate";
 import Depositions from "./pages/Depositions";
 
+
 const App = () => {
   return (
     <BrowserRouter>
