@@ -22,7 +22,7 @@ const Header = ({ color }: HeaderProps) => {
                     <Link href="/escolas">PARA ESCOLAS</Link>
                     <Link href="/sobre">SOBRE</Link>
                     <Link href="/blog">BLOG</Link>
-                    <Link href="#">FAQ</Link>
+                    <Link href="/faq">FAQ</Link>
                     <Link href="/contato">CONTATO</Link>
                 </Menu>
                 <DivButton>

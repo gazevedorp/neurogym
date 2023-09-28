@@ -40,7 +40,7 @@ const Footer = ({ color }: HeaderProps) => {
                 <ContainerList>
                     <Link href="/sobre"><MenuIcon src={menuIcon} />SOBRE</Link>
                     <Link href="/blog"><MenuIcon src={menuIcon} />BLOG</Link>
-                    <Link href="#"><MenuIcon src={menuIcon} />FAQ</Link>
+                    <Link href="/faq"><MenuIcon src={menuIcon} />FAQ</Link>
                     <Link href="/contato"><MenuIcon src={menuIcon} />CONTATO</Link>
                 </ContainerList>
                 <ContainerNewsletter>
