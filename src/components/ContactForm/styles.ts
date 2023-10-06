@@ -82,7 +82,7 @@ export const TextArea = styled.textarea`
 export const Button = styled.button`
   width: 100%;
   height: 30px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   border-radius: 100px;
   background-color: ${props => props.color == "purple" ? colors.lightPurple : props.color == "blue" ? colors.blue : colors.golden};

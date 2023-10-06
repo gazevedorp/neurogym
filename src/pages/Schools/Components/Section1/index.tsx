@@ -10,8 +10,8 @@ const Section1 = () => {
                 <Title>Método Inovador de Estímulo Cognitivo para Escolas</Title>
                 <Subtitle>Desenvolvimento da Criatividade, Raciocínio Lógico e Habilidades Interpessoais dos Alunos</Subtitle>
                 <DivButton>
-                    <Button>SAIBA MAIS</Button>
-                    <Button>ENTRE EM CONTATO</Button>
+                    <Button onClick={() => window.location.href = ("/sobre")}>SAIBA MAIS</Button>
+                    <Button onClick={() => window.location.href = ("/contato")}>ENTRE EM CONTATO</Button>
                 </DivButton>
             </ContainerLeft>
             <ContainerRight>

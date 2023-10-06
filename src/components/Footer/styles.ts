@@ -59,7 +59,7 @@ export const ContainerList = styled.div`
 `;
 
 export const Link = styled.a`
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   color: ${colors.white};
   display: flex;
@@ -96,7 +96,7 @@ export const NewsletterInput = styled.input`
 export const NewsletterButton = styled.button`
   width: 280px;
   height: 30px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   padding: 10px 20px;
   border-radius: 100px;
@@ -112,6 +112,6 @@ export const ContainerTerms = styled.p`
 
 export const Terms = styled.a`
   color: ${colors.white};
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
 `

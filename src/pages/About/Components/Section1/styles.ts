@@ -7,7 +7,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: flex-start;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 `;
 
 export const ContainerLeft = styled.div`
@@ -25,7 +25,7 @@ export const TitleGolden = styled.p`
 `
 
 export const Subtitle = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 15px;
   color: ${colors.white};
   font-weight: 400;
@@ -38,5 +38,5 @@ export const ContainerRight = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 320px;
+  height: 380px;
 `;

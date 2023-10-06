@@ -29,7 +29,7 @@ export const Column = styled.div`
 `;
 
 export const InputTitle = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   color: ${colors.golden};
   margin-bottom: 10px;
 `;
@@ -52,7 +52,7 @@ export const ContainerButton = styled.div`
 `;
 
 export const Link = styled.a`
-  font-size: 12px;
+  font-size: 14px;
   color: ${colors.golden};
   margin-bottom: 0px;
   text-decoration: none;
@@ -62,7 +62,7 @@ export const Button = styled.button`
   width: 150px;
   height: 30px;
   margin-bottom: 15px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   border-radius: 100px;
   background-color: ${colors.golden};

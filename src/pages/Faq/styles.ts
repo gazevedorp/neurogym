@@ -29,7 +29,7 @@ export const TitleGolden = styled.p`
 `
 
 export const Subtitle = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 10px;
   color: ${colors.white};
   font-weight: 400;

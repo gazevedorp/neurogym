@@ -18,7 +18,7 @@ const Section2 = () => {
                 <Subtitle bottom={5}><Icon src={listIcon} />Equipe insatisfeita com os resultados</Subtitle>
                 <Subtitle bottom={20}><Icon src={listIcon} />Perda de oportunidades de negócios</Subtitle>
                 <Subtitle bottom={20}>Não deixe isso acontecer com o seu negócio. Obtenha os melhores resultados investindo em seu time e investindo no “equipamento” mais importante de sua empresa: o cérebro de seus colaboradores.</Subtitle>
-                <Button>ENTRE EM CONTATO</Button>
+                <Button onClick={() => window.location.href = ("/contato")}>ENTRE EM CONTATO</Button>
             </ContainerRight>
         </Container >
     )

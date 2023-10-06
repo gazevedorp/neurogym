@@ -7,7 +7,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 `;
 
 export const TitleGolden = styled.p`
@@ -21,7 +21,7 @@ export const TitleGolden = styled.p`
 export const Subtitle = styled.p`
   width: 750px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 15px;
   color: ${colors.white};
   font-weight: 400;

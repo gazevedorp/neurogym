@@ -33,7 +33,7 @@ export const Button = styled.button`
   padding: 10px 15px;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 30px;
   cursor: pointer;
   display: flex;

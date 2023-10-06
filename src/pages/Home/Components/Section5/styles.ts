@@ -19,6 +19,6 @@ export const Card = styled.div`
 
 export const CardTitle = styled.p`
   padding: 20px 28px;
-  font-size: 12px;
+  font-size: 14px;
   color: ${colors.white};
 `;

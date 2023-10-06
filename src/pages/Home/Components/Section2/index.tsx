@@ -9,16 +9,16 @@ const Section2 = () => {
     return (
         <Container>
             <Card image={homeCard1}>
-                <Button>NOSSO MÉTODO<ButtonIcon src={arrowRight} /></Button>
+                <Button onClick={() => window.location.href = ("/sobre")}>NOSSO MÉTODO<ButtonIcon src={arrowRight} /></Button>
             </Card>
             <Card image={homeCard2}>
-                <Button>JOGOS ONLINE<ButtonIcon src={arrowRight} /></Button>
+                <Button disabled>JOGOS ONLINE<ButtonIcon src={arrowRight} /></Button>
             </Card>
             <Card image={homeCard3}>
-                <Button>AULAS AO VIVO<ButtonIcon src={arrowRight} /></Button>
+                <Button disabled>AULAS AO VIVO<ButtonIcon src={arrowRight} /></Button>
             </Card>
             <Card image={homeCard4}>
-                <Button>CERTIFICADO DIGITAL<ButtonIcon src={arrowRight} /></Button>
+                <Button onClick={() => window.location.href = ("/certificado")}>CERTIFICADO DIGITAL<ButtonIcon src={arrowRight} /></Button>
             </Card>
         </Container>
     )

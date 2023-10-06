@@ -10,8 +10,8 @@ const Section1 = () => {
                 <Title>Um diferencial no seu currículo que destaca sua excelência na área</Title>
                 <Subtitle>Tenha a comprovação de sua expertise na área de Estimulação Cognitiva.</Subtitle>
                 <DivButton>
-                    <Button>SAIBA MAIS</Button>
-                    <Button>ENTRE EM CONTATO</Button>
+                    <Button onClick={() => window.location.href = ("/sobre")}>SAIBA MAIS</Button>
+                    <Button onClick={() => window.location.href = ("/certificado")}>ENTRE EM CONTATO</Button>
                 </DivButton>
             </ContainerLeft>
             <ContainerRight>

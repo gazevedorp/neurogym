@@ -7,7 +7,7 @@ const Section3 = () => {
             <ContainerLeft>
                 <TitleGolden>A NeuroGym tem o objetivo de ajudar as empresas a melhorarem o desempenho de seus funcionários, bem como a qualidade de vida no trabalho</TitleGolden>
                 <Subtitle>Nosso curso oferece um conjunto de técnicas e estratégias que visam estimular a atividade cerebral e desenvolver habilidades emocionais,a fim de melhorar a produtividade, a criatividade, a tomada de decisões e a resolução de problemas dos funcionários. Além disso, o curso também ajuda a reduzir o estresse, a ansiedade e a melhorar a comunicação e o trabalho em equipe.</Subtitle>
-                <Button>ENTRE EM CONTATO</Button>
+                <Button onClick={() => window.location.href = ("/contato")}>ENTRE EM CONTATO</Button>
             </ContainerLeft>
             <ContainerRight>
                 <Image src={image} />

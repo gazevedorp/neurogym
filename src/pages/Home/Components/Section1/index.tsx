@@ -10,9 +10,9 @@ const Section1 = () => {
                 <Title>Eleve o Potencial do seu Cérebro ao Ápice e revolucione a sua saúde mental</Title>
                 <Subtitle>Com a NeuroGym você tem todo suporte para exercitar o seu cérebro e atingir o seu potencial máximo</Subtitle>
                 <DivButton>
-                    <Button1>PARA VOCÊ</Button1>
-                    <Button2>PARA ESCOLAS</Button2>
-                    <Button3>PARA EMPRESAS</Button3>
+                    <Button1 onClick={() => window.location.href = ("/voce")}>PARA VOCÊ</Button1>
+                    <Button2 onClick={() => window.location.href = ("/escolas")}>PARA ESCOLAS</Button2>
+                    <Button3 onClick={() => window.location.href = ("/empresas")}>PARA EMPRESAS</Button3>
                 </DivButton>
             </ContainerLeft>
             <ContainerRight>

@@ -14,7 +14,7 @@ const Section3 = () => {
                     um deles de maneira direta e personalizada, nossos programas
                     são cuidadosamente elaborados conforme as necessidades
                     de seus líderes e seus colaboradores.</Subtitle>
-                <Button>SAIBA MAIS</Button>
+                <Button onClick={() => window.location.href = ("/empresas")}>SAIBA MAIS</Button>
             </ContainerRight>
         </Container >
     )

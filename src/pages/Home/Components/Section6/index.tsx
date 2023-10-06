@@ -15,7 +15,7 @@ const Section6 = () => {
                     e ansiedade. O treinamento da NeuroGym é abrangente e dinâmico, sendo
                     indicado para todas as idades, podendo cada aluno utilizá-lo de acordo com
                     seu tempo livre e seus objetivos.</Subtitle>
-                <Button>SAIBA MAIS</Button>
+                <Button onClick={() => window.location.href = ("/voce")}>SAIBA MAIS</Button>
             </ContainerRight>
         </Container >
     )

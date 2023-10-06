@@ -10,8 +10,8 @@ const Section1 = () => {
                 <Title>Treinamento Cognitivo corporativo sob-medida para empresas</Title>
                 <Subtitle>Um programas cuidadosamente elaborado conforme as necessidades de seu negócio.</Subtitle>
                 <DivButton>
-                    <Button>SAIBA MAIS</Button>
-                    <Button>ENTRE EM CONTATO</Button>
+                    <Button onClick={() => window.location.href = ("/sobre")}>SAIBA MAIS</Button>
+                    <Button onClick={() => window.location.href = ("/contato")}>ENTRE EM CONTATO</Button>
                 </DivButton>
             </ContainerLeft>
             <ContainerRight>

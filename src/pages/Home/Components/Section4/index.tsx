@@ -8,7 +8,7 @@ const Section4 = () => {
                 <TitleBlue>NeuroGym para Escolas</TitleBlue>
                 <Title>Método de Estímulo Cognitivo para Escolas com foco no desenvolvimento das capacidades de aprendizado e habilidades interpessoais dos alunos</Title>
                 <Subtitle>Através de nosso método os alunos terão os melhores resultados em seus estudos através do estímulo da Criatividade, Memória e Raciocínio Lógico, além do desenvolvimento da Inteligência Emocional, Motivação para Estudo e Trabalho em Equipe.</Subtitle>
-                <Button>SAIBA MAIS</Button>
+                <Button onClick={() => window.location.href = ("/escolas")}>SAIBA MAIS</Button>
             </ContainerLeft>
             <ContainerRight>
                 <Image src={image} />

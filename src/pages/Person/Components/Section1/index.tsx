@@ -10,8 +10,8 @@ const Section1 = () => {
                 <Title>Aulas Online, ao vivo ou gravadas, para você treinar todos os dias</Title>
                 <Subtitle>Desenvolva seu potencial sem sair de casa, com Aulas e Acompanhamento Profissional 100% online</Subtitle>
                 <DivButton>
-                    <Button>SAIBA MAIS</Button>
-                    <Button>ENTRE EM CONTATO</Button>
+                    <Button onClick={() => window.location.href = ("/sobre")}>SAIBA MAIS</Button>
+                    <Button onClick={() => window.location.href = ("/contato")}>ENTRE EM CONTATO</Button>
                 </DivButton>
             </ContainerLeft>
             <ContainerRight>

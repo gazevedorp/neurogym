@@ -7,7 +7,7 @@ export const Title = styled.p`
 `;
 
 export const Subtitle = styled.a`
-  font-size: 12px;
+  font-size: 14px;
   color: ${colors.white};
   margin-top: 5px;
   margin-bottom: 20px;
@@ -45,7 +45,7 @@ export const CardDeposition = styled.div`
 
 export const TextDeposition = styled.p`
   color: ${colors.black};
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   font-weight: bold;
 `;
@@ -56,12 +56,12 @@ export const Image = styled.img`
 
 export const CardTitle = styled.p`
   margin-top: 15px;
-  font-size: 12px;
+  font-size: 14px;
   color: ${colors.golden};
 `;
 
 export const CardSubtitle = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   color: ${colors.golden};
 `;
 

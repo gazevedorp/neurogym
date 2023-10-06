@@ -18,7 +18,7 @@ const Section2 = () => {
                 <Subtitle bottom={5}><Icon src={listIcon} />Autoestima e Confiança</Subtitle>
                 <Subtitle bottom={20}><Icon src={listIcon} />Inteligência Emocional</Subtitle>
                 <Subtitle bottom={20}>Nosso Método de Estímulo Cognitivo garantirá uma maior absorção e retenção dos conteúdos disciplinares e oferecerá a cada aluno um melhor preparo para a vida escolar, pessoal e profissional.</Subtitle>
-                <Button>ENTRE EM CONTATO</Button>
+                <Button onClick={() => window.location.href = ("/contato")}>ENTRE EM CONTATO</Button>
             </ContainerRight>
         </Container >
     )

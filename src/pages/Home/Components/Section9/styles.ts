@@ -8,7 +8,7 @@ export const Title = styled.p`
 `;
 
 export const Subtitle = styled.p`
-  font-size: 12px;
+  font-size: 14px;
   color: ${colors.white};
   margin-top: 5px;
   margin-bottom: 20px;

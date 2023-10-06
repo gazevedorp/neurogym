@@ -39,7 +39,7 @@ export const Button = styled.button<ButtonProps>`
   font-weight: 600;
   padding: 10px 20px;
   border-radius: 100px;
-  font-size: 12px;
+  font-size: 14px;
   cursor: pointer;
 `
 
@@ -56,7 +56,7 @@ export const Menu = styled.div`
 
 export const Link = styled.a`
   color: ${colors.white};
-  font-size: 12px;
+  font-size: 14px;
   margin-right: 24px;
   text-decoration: none;
 `
