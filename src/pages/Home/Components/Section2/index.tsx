@@ -2,7 +2,7 @@ import { Container, Card, Button, ButtonIcon } from "./styles"
 import homeCard1 from "../../../../assets/images/homeCard1.png"
 import homeCard2 from "../../../../assets/images/homeCard2.png"
 import homeCard3 from "../../../../assets/images/homeCard3.png"
-import homeCard4 from "../../../../assets/images/homeCard4.png"
+import homeCard4 from "../../../../assets/images/homecard4.png"
 import arrowRight from '../../../../assets/icons/arrowRight.png'
 
 const Section2 = () => {
