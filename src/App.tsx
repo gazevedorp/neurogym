@@ -12,8 +12,8 @@ import Course from "./pages/Course";
 import Books from "./pages/Books";
 import Tasks from "./pages/Tasks";
 import Task from "./pages/Task";
-import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Login from "./pages/Login";
 // import Provisory from "./pages/Provisory";
 
 const App = () => {
