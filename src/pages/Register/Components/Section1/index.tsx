@@ -20,11 +20,7 @@ const Section1 = () => {
     register,
     handleSubmit,
     formState: { errors },
-    watch,
   } = useForm();
-
-  // Obter o valor do campo senha para validação
-  const senha = watch('senha');
 
   const onSubmit = async (data: any) => {
     // Verificar se as senhas correspondem
@@ -34,7 +30,7 @@ const Section1 = () => {
     }
 
     // Após o signUp, aguarde a sessão ser estabelecida
-    const { data: signUpData, error: authError } = await supabase.auth.signUp({
+    const { error: authError } = await supabase.auth.signUp({
       email: data.email,
       password: data.senha,
     });

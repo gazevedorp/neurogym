@@ -1,3 +1,4 @@
+//@ts-expect-error
 import supabase from '../../../../supabaseClient'
 import { useForm } from 'react-hook-form';
 import {
