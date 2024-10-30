@@ -1,9 +1,10 @@
-import styled from 'styled-components'
-import { colors } from '../../../../assets/colors'
+import styled from "styled-components";
+import { colors } from "../../../../assets/colors";
 
 export const Title = styled.p`
   font-size: 16px;
   color: ${colors.golden};
+  text-align: center;
 `;
 
 export const Subtitle = styled.a`
@@ -12,8 +13,8 @@ export const Subtitle = styled.a`
   margin-top: 5px;
   margin-bottom: 20px;
   display: flex;
-  flex-direction: row;
-  align-items: end;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
 `;
 
@@ -23,11 +24,11 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 60px;
+  flex-wrap: wrap;
 `;
 
 export const Card = styled.div`
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,6 +37,10 @@ export const Card = styled.div`
 
 export const Image = styled.img`
   width: 300px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const CardTitle = styled.p`
@@ -53,4 +58,4 @@ export const ButtonIcon = styled.img`
   width: 14px;
   height: 14px;
   margin-left: 5px;
-`
+`;

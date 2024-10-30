@@ -1,42 +1,38 @@
-import styled from 'styled-components'
-import { colors } from '../../../../assets/colors'
+import styled from "styled-components";
+import { colors } from "../../../../assets/colors";
 
 export const Title = styled.p`
   font-size: 16px;
   margin-bottom: 30px;
   color: ${colors.golden};
-`;
-
-export const Subtitle = styled.p`
-  font-size: 12px;
-  color: ${colors.white};
-  margin-top: 5px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: end;
+  text-align: center;
 `;
 
 export const Container = styled.div`
   width: 85%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   margin-bottom: 60px;
+  flex-wrap: wrap;
 `;
 
 export const Card = styled.div`
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
+  width: 276px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    align-items: center;
+  }
 `;
 
 export const CardBlue = styled.div`
   border-radius: 10px;
-  width: 276px;
+  width: 100%;
   height: 192px;
   background-color: ${colors.purpleBlue};
 `;
@@ -71,10 +67,15 @@ export const Button = styled.button`
   border-radius: 100px;
   font-size: 10px;
   cursor: pointer;
-`
+
+  @media (max-width: 768px) {
+    width: 100%;
+    justify-content: center;
+  }
+`;
 
 export const ButtonIcon = styled.img`
   width: 14px;
   height: 14px;
   margin-left: 5px;
-`
+`;
