@@ -1,16 +1,17 @@
-import styled from 'styled-components'
-import { colors } from '../../../../assets/colors'
+import styled from 'styled-components';
+import { colors } from '../../../../assets/colors';
 
 export const Container = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  padding: 20px;
 `;
 
-export const Form = styled.div`
-  width: 600px;
+export const Form = styled.form`
+  width: 100%;
+  max-width: 600px;
 `;
 
 export const Row = styled.div`
@@ -18,6 +19,7 @@ export const Row = styled.div`
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 `;
 
 export const Column = styled.div`
@@ -26,12 +28,17 @@ export const Column = styled.div`
   width: 47%;
   justify-content: center;
   align-items: flex-start;
+  margin-bottom: 15px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const InputTitle = styled.p`
   font-size: 12px;
   color: ${colors.golden};
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 `;
 
 export const Input = styled.input`
@@ -39,7 +46,7 @@ export const Input = styled.input`
   background-color: ${colors.white};
   padding: 10px;
   border-radius: 4px;
-  margin-bottom: 15px;
+  border: 1px solid ${colors.golden};
 `;
 
 export const ContainerButton = styled.div`
@@ -51,7 +58,7 @@ export const ContainerButton = styled.div`
   justify-content: center;
 `;
 
-export const Link = styled.a`
+export const LinkStyled = styled.a`
   font-size: 12px;
   color: ${colors.golden};
   margin-bottom: 0px;
@@ -60,12 +67,23 @@ export const Link = styled.a`
 
 export const Button = styled.button`
   width: 150px;
-  height: 30px;
+  height: 40px;
   margin-bottom: 15px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   border-radius: 100px;
   background-color: ${colors.golden};
   color: ${colors.black};
   cursor: pointer;
-  `
+  border: none;
+
+  &:hover {
+    background-color: ${colors.darkGolden};
+  }
+`;
+
+export const ErrorMessage = styled.span`
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+`;
